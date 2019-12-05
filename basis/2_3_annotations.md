@@ -1,8 +1,9 @@
 # 2-3.Java注解
 
-#### 1.基本语法
+## 1.基本语法
 
 首先是注解的声明方式如下
+
 ```java
 // @Target注解传入ElementType指明Nullable的作用域
 @Target({ElementType.METHOD, ElementType.PARAMETER, ElementType.FIELD})
@@ -15,11 +16,11 @@
 // @TypeQualifierNickname为类型限定符别称(备注部分具体解释此注解)
 @TypeQualifierNickname
 public @interface Nullable {
-  
+
  // @interface 声明注解
-  
+
 }
 ```
 
-#### 2.JDK元注解
+## 2.JDK元注解
 
