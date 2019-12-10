@@ -1,4 +1,4 @@
-# 4-3.Synchronized关键字
+# 4-3.Synchronized
 ---
 ## 一、 Synchronized的作用范围：适用于**方法**以及**代码块**中。
 

@@ -4,5 +4,5 @@
 * [2.Java基础](2-basis/README.md)
     * [2-3.Java注解](2-basis/2_3_annotations.md)
 * [4.Java多线程](4-thread/README.md)
-    * [4-3.Synchronized关键字][4-thread/4_3_synchronized.md]
+    * [4-3.Synchronized][4-thread/4_3_synchronized.md]
 
