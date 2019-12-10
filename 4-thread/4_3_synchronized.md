@@ -4,12 +4,12 @@
 
 | 类型 | 具体类型 | 作用对象 | 代码示例|
 |:-----:|----|:----:|----|
-|方法|实例方法|类的实例对象|`public synchronized void method(){`<br>`}`|
-|方法|静态方法|类对象|`public static synchronized void method(){`<br>`}`|
-|代码块|实例对象|类的实例对象|`synchronized(this){`<br>`//同步代码块，锁住的是此类的实例对象;`<br>`}`|
-|代码块|Class对象|类对象|`synchronized(SynchronizedDemo.class){`<br>`//锁住的是此类的实例对象;`<br>`}`|
-|代码块|任意实例对象|任意实例对象|`String demo='synchronized';`<br>`synchronized(demo){`<br>`//锁住的为demo对象;`<br>`}`|
-`Tips: 如果Synchronized锁作用于`**类对象**`,不管多少个new实例对象,它们终究属于此类,都会被锁住,即线程之间保证同步关系.`
+|方法|实例方法|类的实例对象|`public synchronized void method(){`<br>`}`
+|方法|静态方法|类对象|`public static synchronized void method(){`<br>`}`
+|代码块|实例对象|类的实例对象|`synchronized(this){`<br>`//同步代码块，锁住的是此类的实例对象;`<br>`}`
+|代码块|Class对象|类对象|`synchronized(SynchronizedDemo.class){`<br>`//锁住的是此类的实例对象;`<br>`}`
+|代码块|任意实例对象|任意实例对象|`String demo='synchronized';`<br>`synchronized(demo){`<br>`//锁住的为demo对象;`<br>`}`
+`Tips: 如果Synchronized锁作用于`**类对象**`,不管多少个new实例对象,它们终究属于此类,都会被锁住,即线程之间保证同步关系.`
 
 ---
 
