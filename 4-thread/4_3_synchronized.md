@@ -1,8 +1,8 @@
-# Synchronized同步锁原理
+# 4-3.Synchronized关键字
 ---
 ## 一、 Synchronized的作用范围：适用于**方法**以及**代码块**中。
 
-| 类型 | 具体类型 | 作用对象 | 代码示例|
+| 类型 | 具体类型 | 作用对象 | 代码示例|
 |:-----:|----|:----:|----|
 |方法|实例方法|类的实例对象|`public synchronized void method(){`<br>`}`|
 |方法|静态方法|类对象|`public static synchronized void method(){`<br>`}`|
@@ -76,16 +76,16 @@ public class SynchronizedTest {
 
 ### 2.从以上信息中可以看出：
 
-- Synchronized锁作用于<b>`代码块`</b>时是通过<b>`monitorenter`</b>和<b>`monitorexit`</b>指令进行实现的，<b>`Monitor`</b>对象是同步的基本实现单元:
+- Synchronized锁作用于<b>`代码块`</b>时是通过<b>`monitorenter`</b>和<b>`monitorexit`</b>指令进行实现的，<b>`Monitor`</b>对象是同步的基本实现单元:
     <br>
 
     `
-       ①.monitorenter指令插入在同步代码段开始的位置,monitorexit指令插入在同步代码段结束的位置。JVM需要保证每一个monitorenter与monitorexit都是一一对应的关系。
+       ①.monitorenter指令插入在同步代码段开始的位置,monitorexit指令插入在同步代码段结束的位置。JVM需要保证每一个monitorenter与monitorexit都是一一对应的关系。
     `
     <br>
 
     `
-    ②.任何对象都会存在一个对应的monitor,当这个monitor被占有,将进入锁定状态（即获取锁）使Synchronized锁进行同步，当线程获取monitor后才能继续往下执行，否则就只能等待(获取monitor的过程是互斥的，即同一时刻只有一个线程能够获取到monitor)。
+    ②.任何对象都会存在一个对应的monitor,当这个monitor被占有,将进入锁定状态（即获取锁）使Synchronized锁进行同步，当线程获取monitor后才能继续往下执行，否则就只能等待(获取monitor的过程是互斥的，即同一时刻只有一个线程能够获取到monitor)。
     `
 - Synchronized锁作用于<b>`方法`</b>时是通过在方法修饰符上的<b>`ACC_SYNCHRONIZED`</b>标志实现的:
     <br>
@@ -99,4 +99,4 @@ Monitor（内部锁），我们可以理解成为是一个同步工具,也可以
 
 - 在Java6版本以前，Monitor的实现完全是依赖于操作系统内部的互斥锁,犹豫需要进行用户态到系统内核态的切换，所以同步操作是一个无差别的重量级操作。
 
-- 但是在目前版本的JDK中，JVM进行了调整，提供有三种不同的Monitor实现(即常见的三类锁):**偏斜锁**(Biased Locking)、**轻量级锁**和**重量级锁**。
+- 但是在目前版本的JDK中，JVM进行了调整，提供有三种不同的Monitor实现(即常见的三类锁):**偏斜锁**(Biased Locking)、**轻量级锁**和**重量级锁**。
