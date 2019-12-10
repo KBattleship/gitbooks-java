@@ -16,9 +16,7 @@
 // @TypeQualifierNickname为类型限定符别称(备注部分具体解释此注解)
 @TypeQualifierNickname
 public @interface Nullable {
-
  // @interface 声明注解
-
 }
 ```
 
