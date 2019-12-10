@@ -1,5 +1,4 @@
 # 4-3.Synchronized
----
 ## 一、 Synchronized的作用范围：适用于**方法**以及**代码块**中。
 
 | 类型 | 具体类型 | 作用对象 | 代码示例|
@@ -11,7 +10,6 @@
 |代码块|任意实例对象|任意实例对象|`String demo='synchronized';`<br>`synchronized(demo){`<br>`//锁住的为demo对象;`<br>`}`
 `Tips: 如果Synchronized锁作用于`**类对象**`,不管多少个new实例对象,它们终究属于此类,都会被锁住,即线程之间保证同步关系.`
 
----
 
 ## 二、Synchronized锁原理分析
 ### **`当一个线程访问同步代码块时，它首先是需要得到锁才能执行同步代码，当退出或者抛出异常时必须要释放锁。`**
@@ -92,7 +90,7 @@ public class SynchronizedTest {
     `
     Synchronized作用于方法时，会被编译成普通方法的调用和返回指令，在VM字节码层并没有任何特别的指令来实现被synchronized修饰的方法，但是在Class文件的方法表中将该方法的access_flags字段中的synchronized标志位置1,表示该方法是同步方法并使用调用该方法的对象或该方法所属的Class在JVM的内部对象表示Klass做为锁对象。
     `
----
+
 ## 三、关于Monitor和对象头
 ### 1.聊聊Monitor
 Monitor（内部锁），我们可以理解成为是一个同步工具,也可以描述成一种同步机制。与一切皆对象一样，所有的Java对象是天生的Monitor，每一个Java对象都有成为Monitor的潜质，因为在Java的设计中 ，每一个Java对象自打娘胎里出来就带了一把看不见的锁，它叫做内部锁或者Monitor锁。
