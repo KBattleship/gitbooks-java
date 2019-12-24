@@ -1,5 +1,5 @@
 # 1.迭代器模式
-![Overvie](media/Overview.png)
+![Overvie](media/1_2_1iterator.png)
 ### 表1-1 类与接口说明
 | 类名 | 备注 |
 | :---: | :---: |
