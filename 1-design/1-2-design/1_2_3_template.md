@@ -5,6 +5,73 @@
 ![模板模式UML](media/1_2_3_template_uml.jpg)
 
 #### ②.代码清单
++ AbstractDisplay类
+
+
+```java
+public abstract class AbstractDisplay {
+    /* 模板类中的模板方法规定了实现的流程,但不做具体抽象方法的具体实现 */
+    public void display() {
+        open();
+        print();
+        close();
+    }
+    /* 定义流程中指定的抽象方法，具体细节交给子类去实现 */
+    abstract void open();
+    abstract void print();
+    abstract void close();
+}
+```
++ CharDisplayTemplate类
+
+```java
+public class CharDisplayTemplate extends AbstractDisplay {
+
+    private char aChar;
+    public CharDisplayTemplate(char a) {
+        this.aChar = a;
+    }
+    /* 具体实现父类模板类中抽象方法 */
+    @Override
+    void open() {
+        System.out.println("Char Display open()");
+    }
+    @Override
+    void print() {
+        System.out.println("Char Display print():" + this.aChar);
+    }
+    @Override
+    void close() {
+        System.out.println("Char Display close()");
+    }
+}
+
+```
++ StringDisplayTemplate类
+
+```java 
+public class StringDisplayTemplate extends AbstractDisplay {
+
+    private String charString;
+    public StringDisplayTemplate(String string) {
+        this.charString = string;
+    }
+    /* 具体实现父类模板类中抽象方法 */
+    @Override
+    void open() {
+        System.out.println("String Display open()");
+    }
+    @Override
+    void print() {
+        System.out.println(this.charString);
+    }
+    @Override
+    void close() {
+        System.out.println("String Display close()");
+    }
+}
+
+```
 #### ③.思路分析
 + 逻辑处理通用化
 
