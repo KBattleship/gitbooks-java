@@ -1,4 +1,4 @@
-# Summary
+# 一览没有🐟
 
 * [前言](README.md)
 * [1.设计模式](1-design/README.md)
@@ -31,4 +31,18 @@
     * [2-2.Java反射](2-basis/2_2_reflection.md)
     * [2-3.Java注解](2-basis/2_3_annotations.md)
 * [4.Java多线程](4-thread/README.md)
-    * [4-3.Synchronized](4-thread/4_3_synchronized.md)
+    * [4-3.同步锁](4-thread/4_3_synchronized.md)
+* [12.数据结构与算法](12-algorithm/README.md)
+    * [12-1.排序](12-algorithm/12_1_sort.md)
+        * [12-1-1.快速排序](12-algorithm/sort/12_1_sort.md)
+        * [12-1-2.希尔排序](12-algorithm/sort/12_2_sort.md)
+        * [12-1-3.归并排序](12-algorithm/sort/12_3_sort.md)
+        * [12-1-4.选择排序](12-algorithm/sort/12_4_sort.md)
+        * [12-1-5.插入排序](12-algorithm/sort/12_5_sort.md)
+        * [12-1-6.冒泡排序](12-algorithm/sort/12_6_sort.md)
+        * [12-1-7.桶排序](12-algorithm/sort/12_7_sort.md)
+        * [12-1-8.堆排序](12-algorithm/sort/12_8_sort.md)
+        * [12-1-9.桶排序](12-algorithm/sort/12_9_sort.md)    
+        * [12-1-10.二叉树排序](12-algorithm/sort/12_10_sort.md)
+        * [12-1-11.计数排序](12-algorithm/sort/12_11_sort.md)
+        * [12-1-12.TimSort](12-algorithm/sort/12_12_sort.md)
