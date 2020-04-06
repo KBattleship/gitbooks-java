@@ -33,4 +33,6 @@
 * [4.Java多线程](4-thread/README.md)
     * [4-3.同步锁](4-thread/4_3_synchronized.md)
 * [12.数据结构与算法](12-algorithm/README.md)
-    * [12-1.排序](12-algorithm/12_1_sort.md)
+    * [12-5.排序](12-algorithm/12_5_sort.md)
+    * [12-6.动态规划](12-algorithm/12_6_dynamic_programming.md)
+    * [12-7.分治算法](12-algorithm/12_7_divide_and_conquer.md)
