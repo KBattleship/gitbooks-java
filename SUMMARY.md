@@ -32,6 +32,8 @@
     * [2-3.Java注解](2-basis/2_3_annotations.md)
 * [4.Java多线程](4-thread/README.md)
     * [4-3.同步锁](4-thread/4_3_synchronized.md)
+* [6.Netty与RPC](6-netty/README.md)
+    * [6-1.入门Netty](6-netty/6_1_netty.md)
 * [12.数据结构与算法](12-algorithm/README.md)
     * [12-5.排序](12-algorithm/12_5_sort.md)
     * [12-6.动态规划](12-algorithm/12_6_dynamic_programming.md)
