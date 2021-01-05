@@ -2,9 +2,9 @@
 title: "[ 设计模式 ] 4.工厂模式"
 date: 2019-07-10T23:36:27+08:00
 lastmod: 2019-07-10T23:36:27+08:00
-keywords: ['DesignPattern']
+keywords: ['design_pattern']
 description: ""
-tags: ['DesignPattern','java']
+tags: ['design_pattern','java']
 categories: ['java']
 author: ""
 ---

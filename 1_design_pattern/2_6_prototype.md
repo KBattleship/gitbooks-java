@@ -2,9 +2,9 @@
 title: "[ 设计模式 ] 6.原型模式"
 date: 2019-07-16T23:36:27+08:00
 lastmod: 2019-07-16T23:36:27+08:00
-keywords: ['DesignPattern']
+keywords: ['design_pattern']
 description: ""
-tags: ['DesignPattern','java']
+tags: ['design_pattern','java']
 categories: ['java']
 author: ""
 ---
