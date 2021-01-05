@@ -1,10 +1,10 @@
 ---
 title: "[ 设计模式 ] 4.工厂模式"
-date: 2019-07-03T23:36:27+08:00
-lastmod: 2019-07-03T23:36:27+08:00
-keywords: ['design pattern']
+date: 2019-07-10T23:36:27+08:00
+lastmod: 2019-07-10T23:36:27+08:00
+keywords: ['DesignPattern']
 description: ""
-tags: ['design pattern','java']
+tags: ['DesignPattern','java']
 categories: ['java']
 author: ""
 ---

@@ -1,4 +1,14 @@
-# 12.5 排序
+---
+title: "[ 算法 ] 12.5 排序"
+date: 2020-06-30T21:10:47+08:00
+lastmod: 2020-06-30T21:10:47+08:00
+keywords: ['guava']
+description: ""
+tags: ['java','guava','java tools']
+categories: ['Java']
+author: ""
+---
+# 排序
 ## 1.排序算法说明
 ### 1.1排序算法指标
 + **稳定性**：如果a==b且a在b前，排序后a仍保持在b前，则**稳定**，否则**不稳定**
@@ -48,7 +58,7 @@
 > 比较相邻两个数的大小，按照要求进行位置交换。
 
 #### 2.1.2图示
-![冒泡排序](media/bubble_sort-1.gif)
+![冒泡排序](/image/docs_img/coding/java/media/12_5_bubble_sort-1.gif)
 #### 2.1.3代码实现
 ```java 
 /**

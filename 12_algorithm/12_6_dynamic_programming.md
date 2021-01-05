@@ -1,4 +1,14 @@
-# 12.6 动态规划
+---
+title: "[ 算法 ] 12.6 动态规划"
+date: 2020-06-30T21:10:47+08:00
+lastmod: 2020-06-30T21:10:47+08:00
+keywords: ['guava']
+description: ""
+tags: ['java','guava','java tools']
+categories: ['Java']
+author: ""
+---
+# 动态规划
 > **动态规划(Dynamic Programming)**,每次决策依赖于当前决策状态，随即又伴随着状态偏移。决策序列就是在变化的状态中生成的(适用于多阶段优化问题)。
 
 ## 1 算法原理

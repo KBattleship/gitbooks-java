@@ -1,5 +1,5 @@
 ---
-title: "[Java] 1.对象入门"
+title: "[ Java ] 1.对象入门"
 date: 2019-06-22T15:36:27+08:00
 lastmod: 2019-06-22T15:36:27+08:00
 keywords: ['base']

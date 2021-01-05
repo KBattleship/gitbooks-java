@@ -1,10 +1,10 @@
 ---
-title: "2.适配器模式"
-date: 2019-08-22T15:36:27+08:00
-lastmod: 2019-08-22T15:36:27+08:00
-keywords: ['design pattern']
+title: '[ 设计模式 ] 2.适配器模式'
+date: 2019-07-06T15:36:27+08:00
+lastmod: 2019-07-06T15:36:27+08:00
+keywords: ['design_pattern']
 description: ""
-tags: ['design pattern','java']
+tags: ['design_pattern','java']
 categories: ['java']
 author: ""
 ---

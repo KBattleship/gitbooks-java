@@ -1,5 +1,5 @@
 ---
-title: "[JVM]1.关于JVM命令"
+title: "[ JVM ] 1.关于JVM命令"
 date: 2020-12-27T21:10:47+08:00
 lastmod: 2020-12-27T21:10:47+08:00
 keywords: ['jvm']
