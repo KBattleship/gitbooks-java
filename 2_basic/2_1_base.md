@@ -1,3 +1,13 @@
+---
+title: "[Java] 1.对象入门"
+date: 2019-06-22T15:36:27+08:00
+lastmod: 2019-06-22T15:36:27+08:00
+keywords: ['base']
+description: ""
+tags: ['java','programming','对象']
+categories: ['java']
+author: ""
+---
 # 对象入门
 
 ​	首先一个重要的概念：**OOP** *(Object Oriented Programming)*,即面向对象编程。对于面向对象会有三大特征：**封装**、**继承**、**多态**。

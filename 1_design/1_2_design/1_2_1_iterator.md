@@ -1,5 +1,15 @@
-# 1.迭代器模式
-![迭代器模式UML图](media/1_2_1iterator.png)
+---
+title: "1.迭代器模式"
+date: 2019-08-22T15:36:27+08:00
+lastmod: 2019-08-22T15:36:27+08:00
+keywords: ['design pattern']
+description: ""
+tags: ['design pattern','java']
+categories: ['java']
+author: ""
+---
+# 迭代器模式
+![迭代器模式UML图](/image/docs_img/coding/java/media/1_2_1iterator.png)
 ### 表1-1 类与接口说明
 | 类名 | 备注 |
 | :---: | :---: |

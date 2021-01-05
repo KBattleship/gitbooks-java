@@ -1,4 +1,14 @@
-# 2.适配器模式
+---
+title: "2.适配器模式"
+date: 2019-08-22T15:36:27+08:00
+lastmod: 2019-08-22T15:36:27+08:00
+keywords: ['design pattern']
+description: ""
+tags: ['design pattern','java']
+categories: ['java']
+author: ""
+---
+# 适配器模式
 #### 适配器模式包含两种：
 + 类适配器模式(使用继承的适配器)
 + 对象适配器模式(使用委托的适配器)

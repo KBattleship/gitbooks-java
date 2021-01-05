@@ -1,4 +1,14 @@
-# 6.原型模式
+---
+title: "[ 设计模式 ] 6.原型模式"
+date: 2019-07-16T23:36:27+08:00
+lastmod: 2019-07-16T23:36:27+08:00
+keywords: ['design pattern']
+description: ""
+tags: ['design pattern','java']
+categories: ['java']
+author: ""
+---
+# 原型模式
 `原型模式`：通过复制生成实例。
 #### ①.角色分配
 + **Prototype(原型)**

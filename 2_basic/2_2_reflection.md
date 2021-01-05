@@ -1,4 +1,14 @@
-# 2-3.Java反射
+---
+title: "[Java] 2.Java反射"
+date: 2019-06-22T15:36:27+08:00
+lastmod: 2019-06-22T15:36:27+08:00
+keywords: ['reflection']
+description: ""
+tags: ['java','programming','反射']
+categories: ['java']
+author: ""
+---
+# Java反射
 ### 一、反射：
 
 ##### 1.概念：

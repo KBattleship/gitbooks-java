@@ -1,8 +1,18 @@
-# 3.模板模式
-<font style="color:red;">**模板模式：**</font>`是带有模板功能的模式，组成模板的方法被定义在父类中，由于这些方法是抽像的，所以在父类代码中无法知道具体实现，唯一能知道的是父类在如何调用这些方法，具体的实现全由子类方法处理。`
+---
+title: "3.模板模式"
+date: 2019-08-22T15:36:27+08:00
+lastmod: 2019-08-22T15:36:27+08:00
+keywords: ['design pattern']
+description: ""
+tags: ['design pattern','java']
+categories: ['java']
+author: ""
+---
+# 模板模式
+<font style="color:red;"> **模板模式：** </font>`是带有模板功能的模式，组成模板的方法被定义在父类中，由于这些方法是抽像的，所以在父类代码中无法知道具体实现，唯一能知道的是父类在如何调用这些方法，具体的实现全由子类方法处理。`
 
 #### ①.UML图
-![模板模式UML](media/1_2_3_template_uml.jpg)
+![模板模式UML](/image/docs_img/coding/java/media/1_2_3_template_uml.jpg)
 
 #### ②.代码清单
 + AbstractDisplay类
@@ -81,7 +91,7 @@ public class StringDisplayTemplate extends AbstractDisplay {
 `子类实现父类抽象方法时，必须理解这些抽象方法被调用的时机、逻辑。如果看不到父类代码，不能了解到父类方法中所定义的相关逻辑，想要编写子类抽象方法实现代码是很困难的。`
 + 父、子类间的一致性
 
-`通过父类类型定义子类实例变量，即时不使用instanceof指定子类的类型，程序依然可以正常运行。`***(里氏替换原则[LSP],通用的继承原则。)***
+`通过父类类型定义子类实例变量，即时不使用instanceof指定子类的类型，程序依然可以正常运行。` ***(里氏替换原则[LSP],通用的继承原则。)***
 #### ④.类的层次与抽象类
 + 父类对子类的约束
     + 在子类中可以使用父类中定义的方法

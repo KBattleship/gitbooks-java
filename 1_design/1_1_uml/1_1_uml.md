@@ -1,3 +1,13 @@
+---
+title: "1.关于UML图"
+date: 2019-08-22T15:36:27+08:00
+lastmod: 2019-08-22T15:36:27+08:00
+keywords: ['UML']
+description: ""
+tags: ['UML','programming']
+categories: ['java']
+author: ""
+---
 # 关于UML图
 学习设计模式前，UML还是需要学习了解一下。
 ### UML

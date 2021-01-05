@@ -1,4 +1,14 @@
-# 5.单例模式
+---
+title: "[ 设计模式 ] 5.单例模式"
+date: 2019-07-11T23:36:27+08:00
+lastmod: 2019-07-11T23:36:27+08:00
+keywords: ['design pattern']
+description: ""
+tags: ['design pattern','java']
+categories: ['java']
+author: ""
+---
+# 单例模式
 <font style="color:red;">**单例模式：**</font>`保证任何情况下都绝对的只生成一个实例的模式。`
 #### ①.单例角色
 + `Singleton`: 有且仅有的一个角色(实例)。
